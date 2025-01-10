@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+Cadastro de Usuários com React
+Este é um projeto desenvolvido durante o curso "React: Gerenciamento de estado e componentes reutilizáveis" oferecido pela Alura. O objetivo do curso é introduzir conceitos fundamentais do React, como gerenciamento de estado, componentes reutilizáveis e boas práticas no desenvolvimento de aplicações front-end.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🖥️ Tecnologias Utilizadas
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+JavaScript (ES6+): Linguagem de programação usada no desenvolvimento.
+HTML5 e CSS3: Para estruturação e estilização.
+npm: Gerenciador de pacotes utilizado para instalar dependências.
+React Router: Para navegação entre páginas.
+React Hooks: Para gerenciamento de estado e ciclo de vida dos componentes.
+🧠 Aprendizados
+Durante o desenvolvimento deste projeto, foram abordados os seguintes tópicos:
 
-## Available Scripts
+Configuração inicial de projetos React utilizando Create React App.
+Criação e estilização de componentes reutilizáveis.
+Gerenciamento de estado com hooks como useState e useEffect.
+Rotas e navegação com o React Router.
+Validação de formulários e tratamento de eventos.
+Organização de código e boas práticas.
+🚀 Funcionalidades
+Cadastro de usuários com validação de dados.
+Exibição de uma lista de usuários cadastrados.
+Navegação entre páginas (ex.: formulário de cadastro e lista de usuários).
+Interface interativa e responsiva.
+📦 Como Executar o Projeto
+Clone o repositório:
 
-In the project directory, you can run:
+bash
+Copiar código
+git clone https://github.com/VictorCrepaldiGomes/CadastroReactAlura.git
+Acesse o diretório do projeto:
 
-### `npm start`
+bash
+Copiar código
+cd CadastroReactAlura
+Instale as dependências:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copiar código
+npm install
+Inicie o servidor de desenvolvimento:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copiar código
+npm start
+Acesse o projeto no navegador:
+Abra http://localhost:3000.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📁 Estrutura do Projeto
+plaintext
+Copiar código
+CadastroReactAlura/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Form.js
+│   │   ├── UserList.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── README.md
+components/: Contém os componentes reutilizáveis do projeto.
+App.js: Componente principal que gerencia as rotas.
+index.js: Ponto de entrada da aplicação React.
+📚 Referências
+Documentação do React
+React Router
+Curso Alura: React - Gerenciamento de estado e componentes reutilizáveis
+📜 Licença
+Este projeto foi desenvolvido como parte de um curso educacional e é disponibilizado para fins de aprendizado. Sinta-se à vontade para explorar, modificar e reutilizar o código.
