@@ -4,7 +4,7 @@ import TextCamp from '../TextCamp/TextCamp';
 import './Form.css';
 import { useState } from 'react';
 
-const Form = () => {
+const Form = (props) => {
 
     const times = [
         'Programadores',
@@ -12,7 +12,7 @@ const Form = () => {
         'Suporte',
         'Gerência',
         'Financeiro'
-    ];
+    ]
 
 const [nome, setNome] = useState('')
 const [cargo, setCargo] = useState('')
@@ -21,7 +21,12 @@ const [time, setTime] = useState('')
  
 const Submit = (evento) => {
     evento.preventDefault()
-    console.log('Formulário enviado => ', nome, cargo, imagem, time)
+    props.FuncionarioCadastrado({
+        nome: nome,
+        cargo: cargo,
+        imagem: imagem,
+        time: time
+    })
 }
         
  
