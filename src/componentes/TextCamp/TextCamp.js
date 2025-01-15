@@ -1,18 +1,17 @@
-
 import './TextCamp.css'
 
-const TextCamp = (propriedades) => {
+const TextCamp = (props) => {
 
     
     const Digitar = (evento) => {
-        propriedades.Alterado(evento.target.value)
+        props.Alterado(evento.target.value)
 
     }
 
     return (
         <div className="TextCamp">
-            <label>{propriedades.label}</label>
-            <input value={propriedades.valor} onChange = {Digitar} required={propriedades.obg} placeholder = {propriedades.placeholder}></input>
+            <label>{props.label}</label>
+            <input value={props.valor} onChange = {Digitar} required={props.obg} placeholder = {props.placeholder}></input>
         </div>
 
     )

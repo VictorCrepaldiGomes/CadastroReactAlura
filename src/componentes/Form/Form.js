@@ -6,13 +6,7 @@ import { useState } from 'react';
 
 const Form = (props) => {
 
-    const times = [
-        'Programadores',
-        'Designers',
-        'Suporte',
-        'Gerência',
-        'Financeiro'
-    ]
+
 
 const [nome, setNome] = useState('')
 const [cargo, setCargo] = useState('')
@@ -27,6 +21,11 @@ const Submit = (evento) => {
         imagem: imagem,
         time: time
     })
+
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('')
 }
         
  
@@ -65,7 +64,7 @@ const Submit = (evento) => {
                 <Lista    
                 obg={true} 
                 label='Time' 
-                itens={times}
+                itens={props.times}
                 valor = {time}
                 Alterado = {valor => setTime(valor)}
                 
